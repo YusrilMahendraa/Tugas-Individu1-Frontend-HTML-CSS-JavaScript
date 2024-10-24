@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;   
+}
+
+img{
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    margin-top: 50px;
+    color: #364F6B;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol-home{
+    background: #364F6B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-home:hover{
+    background: #FC5185;
+    text-decoration: none;
+}
+
+a.tombol-game{
+    background: #364F6B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+a.tombol-game:hover{
+    background: #FC5185;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#contact{
+    background: #364F6B;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0px auto;
+}
+
+.footer-section h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section p {
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    line-height: 50px;
+}
+    /* CSS untuk video section */
+    .video-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .video-container iframe {
+        margin: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Penyesuaian di perangkat yang lebih kecil */
+    @media (max-width: 768px) {
+        .video-container iframe {
+            width: 100%;
+            height: auto;
+        }
+    }
